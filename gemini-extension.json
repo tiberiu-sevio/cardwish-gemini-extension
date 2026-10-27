@@ -1,0 +1,15 @@
+{
+  "name": "cardwish",
+  "version": "1.0.0",
+  "description": "Graded trading-card market data: search cards, read live listings, sold-price history and market stats, and manage price alerts across eBay, Catawiki, MySlabs, Goldin, Fanatics and Alt.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "cardwish": {
+      "httpUrl": "https://mcp.cardwish.cc/",
+      "headers": {
+        "Authorization": "Bearer $CARDWISH_API_KEY"
+      },
+      "timeout": 30000
+    }
+  }
+}
